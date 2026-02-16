@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <h1>Arati Bachal.</h1>
+        <p>Web Developer</p>
+
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#gallery">Gallery</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+        <hr>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="Images\Dev.jpg" alt="Profile picture dev" width="200">
+        <p>
+            Hello! I am arati bachal, a beginner web developer learning HTML5.
+            I enjoy creating simple and clean websites.
+        </p>
+
+        <p>
+            This portfolio is built using semantic HTML tags and best practices.
+        </p>
+    </section>
+    <hr>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Basic JavaScript</li>
+            <li>SQL and Database Concepts</li>
+        </ul>
+    </section>
+    <hr>
+
+    <section id="gallery">
+        <h2>Image Gallery</h2>
+        <div class="gallery">
+            <img src="Images/HTML.jpg" alt="HTML">
+            <img src="Images/CSS.jpg" alt="CSS">
+            <img src="Images/JavaScript.jpg" alt="JavaScript">
+            <img src="Images/SQL.jpg" alt="SQL and Database Concepts">
+        </div>
+    </section>
+    <hr>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <hr>
+        <p> All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
